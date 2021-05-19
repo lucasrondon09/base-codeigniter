@@ -1,0 +1,52 @@
+CRITICAL - 2021-03-18 08:53:54 --> Undefined variable: reg
+#0 C:\wamp64\www\mep\admin\app\Views\usuario\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 53, Array)
+#1 C:\wamp64\www\mep\admin\system\View\View.php(220): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\mep\admin\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('usuario/index', Array, true)
+#4 C:\wamp64\www\mep\admin\app\Controllers\Usuario.php(59): view('usuario/index', Array)
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Usuario->search()
+#6 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-18 08:54:40 --> Undefined variable: reg
+#0 C:\wamp64\www\mep\admin\app\Views\usuario\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 53, Array)
+#1 C:\wamp64\www\mep\admin\system\View\View.php(220): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\mep\admin\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('usuario/index', Array, true)
+#4 C:\wamp64\www\mep\admin\app\Controllers\Usuario.php(59): view('usuario/index', Array)
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Usuario->search()
+#6 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-18 08:56:26 --> Illegal string offset 'id'
+#0 C:\wamp64\www\mep\admin\app\Views\usuario\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\m...', 55, Array)
+#1 C:\wamp64\www\mep\admin\system\View\View.php(220): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\mep\admin\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('usuario/index', Array, true)
+#4 C:\wamp64\www\mep\admin\app\Controllers\Usuario.php(40): view('usuario/index', Array)
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Usuario->index()
+#6 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-18 08:56:39 --> Illegal string offset 'id'
+#0 C:\wamp64\www\mep\admin\app\Views\usuario\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\m...', 55, Array)
+#1 C:\wamp64\www\mep\admin\system\View\View.php(220): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\mep\admin\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('usuario/index', Array, true)
+#4 C:\wamp64\www\mep\admin\app\Controllers\Usuario.php(40): view('usuario/index', Array)
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Usuario->index()
+#6 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#7 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-18 08:57:48 --> Object of class App\Models\UsuarioModel could not be converted to string
+#0 C:\wamp64\www\mep\admin\app\Models\UsuarioModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\m...', 33, Array)
+#1 C:\wamp64\www\mep\admin\app\Controllers\Usuario.php(25): App\Models\UsuarioModel->pesquisar('a')
+#2 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Usuario->index()
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#4 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

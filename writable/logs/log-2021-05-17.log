@@ -1,0 +1,66 @@
+ERROR - 2021-05-17 15:57:08 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+CRITICAL - 2021-05-17 15:57:08 --> Unable to connect to the database.
+#0 C:\wamp64\www\mep\admin\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\mep\admin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\mep\admin\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\mep\admin\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\wamp64\www\mep\admin\app\Models\UsuarioModel.php(28): CodeIgniter\BaseModel->find()
+#5 C:\wamp64\www\mep\admin\app\Controllers\Usuario.php(34): App\Models\UsuarioModel->get()
+#6 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Usuario->index()
+#7 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#8 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#11 {main}
+CRITICAL - 2021-05-17 15:57:08 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\wamp64\www\mep\admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\wamp64\\www\\m...', 100, Array)
+#1 C:\wamp64\www\mep\admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 C:\wamp64\www\mep\admin\system\Debug\Exceptions.php(281): include('C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\mep\admin\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-05-17 15:57:18 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+CRITICAL - 2021-05-17 15:57:18 --> Unable to connect to the database.
+#0 C:\wamp64\www\mep\admin\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\mep\admin\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\mep\admin\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\mep\admin\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\wamp64\www\mep\admin\app\Models\UsuarioModel.php(28): CodeIgniter\BaseModel->find()
+#5 C:\wamp64\www\mep\admin\app\Controllers\Usuario.php(34): App\Models\UsuarioModel->get()
+#6 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Usuario->index()
+#7 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#8 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#11 {main}
+CRITICAL - 2021-05-17 15:57:18 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\wamp64\www\mep\admin\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\wamp64\\www\\m...', 100, Array)
+#1 C:\wamp64\www\mep\admin\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Usuario), true)
+#2 C:\wamp64\www\mep\admin\system\Debug\Exceptions.php(281): include('C:\\wamp64\\www\\m...')
+#3 C:\wamp64\www\mep\admin\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-17 16:00:36 --> default_page nÃ£o Ã© um Pager template vÃ¡lido.
+#0 C:\wamp64\www\mep\admin\system\Pager\Pager.php(154): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('default_page')
+#1 C:\wamp64\www\mep\admin\system\Pager\Pager.php(93): CodeIgniter\Pager\Pager->displayLinks('default', 'default_page')
+#2 C:\wamp64\www\mep\admin\app\Views\usuario\index.php(80): CodeIgniter\Pager\Pager->links('default', 'default_page')
+#3 C:\wamp64\www\mep\admin\system\View\View.php(220): include('C:\\wamp64\\www\\m...')
+#4 C:\wamp64\www\mep\admin\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('usuario/index', Array, true)
+#6 C:\wamp64\www\mep\admin\app\Controllers\Usuario.php(42): view('usuario/index', Array)
+#7 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Usuario->index()
+#8 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#9 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#12 {main}

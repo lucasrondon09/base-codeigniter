@@ -1,0 +1,171 @@
+CRITICAL - 2021-05-18 14:20:58 --> Arquivo inválido: home/home.php
+#0 C:\wamp64\www\mep\admin\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/home.php')
+#1 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('home/home', Array, true)
+#2 C:\wamp64\www\mep\admin\app\Controllers\Home.php(10): view('home/home')
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#8 {main}
+CRITICAL - 2021-05-18 14:51:04 --> Undefined variable: table
+#0 C:\wamp64\www\mep\admin\app\Views\usuario\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 53, Array)
+#1 C:\wamp64\www\mep\admin\system\View\View.php(220): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\mep\admin\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('usuario/index', Array, true)
+#4 C:\wamp64\www\mep\admin\app\Controllers\Home.php(60): view('usuario/index')
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->validation()
+#6 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#10 {main}
+CRITICAL - 2021-05-18 14:55:31 --> Arquivo inválido: login.php
+#0 C:\wamp64\www\mep\admin\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\wamp64\www\mep\admin\app\Controllers\Home.php(21): view('login')
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#8 {main}
+CRITICAL - 2021-05-18 14:55:33 --> Arquivo inválido: login.php
+#0 C:\wamp64\www\mep\admin\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\wamp64\www\mep\admin\app\Controllers\Home.php(21): view('login')
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#8 {main}
+CRITICAL - 2021-05-18 14:55:34 --> Arquivo inválido: login.php
+#0 C:\wamp64\www\mep\admin\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\wamp64\www\mep\admin\app\Controllers\Home.php(21): view('login')
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#4 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#8 {main}
+CRITICAL - 2021-05-18 14:59:43 --> Arquivo inválido: home.php
+#0 C:\wamp64\www\mep\admin\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\wamp64\www\mep\admin\app\Controllers\Home.php(41): view('home')
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->validation()
+#4 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#8 {main}
+CRITICAL - 2021-05-18 14:59:45 --> Arquivo inválido: home.php
+#0 C:\wamp64\www\mep\admin\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\wamp64\www\mep\admin\app\Controllers\Home.php(41): view('home')
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->validation()
+#4 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#8 {main}
+CRITICAL - 2021-05-18 14:59:46 --> Arquivo inválido: home.php
+#0 C:\wamp64\www\mep\admin\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\wamp64\www\mep\admin\app\Controllers\Home.php(41): view('home')
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->validation()
+#4 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#8 {main}
+CRITICAL - 2021-05-18 14:59:46 --> Arquivo inválido: home.php
+#0 C:\wamp64\www\mep\admin\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\wamp64\www\mep\admin\app\Controllers\Home.php(41): view('home')
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->validation()
+#4 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#8 {main}
+CRITICAL - 2021-05-18 14:59:46 --> Arquivo inválido: home.php
+#0 C:\wamp64\www\mep\admin\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\wamp64\www\mep\admin\app\Controllers\Home.php(41): view('home')
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->validation()
+#4 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#8 {main}
+CRITICAL - 2021-05-18 15:18:11 --> Arquivo inválido: home.php
+#0 C:\wamp64\www\mep\admin\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\wamp64\www\mep\admin\app\Controllers\Home.php(42): view('home')
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->validation()
+#4 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#8 {main}
+CRITICAL - 2021-05-18 16:25:07 --> Argument 2 passed to CodeIgniter\Router\RouteCollection::resource() must be of the type array or null, string given, called in C:\wamp64\www\mep\admin\app\Config\Routes.php on line 38
+#0 C:\wamp64\www\mep\admin\app\Config\Routes.php(38): CodeIgniter\Router\RouteCollection->resource('logout', 'Home::logout')
+#1 C:\wamp64\www\mep\admin\system\CodeIgniter.php(803): require('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\mep\admin\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#6 {main}
+CRITICAL - 2021-05-18 16:25:08 --> Argument 2 passed to CodeIgniter\Router\RouteCollection::resource() must be of the type array or null, string given, called in C:\wamp64\www\mep\admin\app\Config\Routes.php on line 38
+#0 C:\wamp64\www\mep\admin\app\Config\Routes.php(38): CodeIgniter\Router\RouteCollection->resource('logout', 'Home::logout')
+#1 C:\wamp64\www\mep\admin\system\CodeIgniter.php(803): require('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\mep\admin\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#6 {main}
+CRITICAL - 2021-05-18 16:25:10 --> Argument 2 passed to CodeIgniter\Router\RouteCollection::resource() must be of the type array or null, string given, called in C:\wamp64\www\mep\admin\app\Config\Routes.php on line 38
+#0 C:\wamp64\www\mep\admin\app\Config\Routes.php(38): CodeIgniter\Router\RouteCollection->resource('logout', 'Home::logout')
+#1 C:\wamp64\www\mep\admin\system\CodeIgniter.php(803): require('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\mep\admin\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#6 {main}
+CRITICAL - 2021-05-18 16:25:33 --> Argument 2 passed to CodeIgniter\Router\RouteCollection::resource() must be of the type array or null, string given, called in C:\wamp64\www\mep\admin\app\Config\Routes.php on line 38
+#0 C:\wamp64\www\mep\admin\app\Config\Routes.php(38): CodeIgniter\Router\RouteCollection->resource('logout', 'Home::logout')
+#1 C:\wamp64\www\mep\admin\system\CodeIgniter.php(803): require('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\mep\admin\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#6 {main}
+CRITICAL - 2021-05-18 16:35:12 --> Call to undefined function App\Controllers\index()
+#0 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->validation()
+#1 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#5 {main}
+CRITICAL - 2021-05-18 16:41:15 --> Arquivo inválido: home.php
+#0 C:\wamp64\www\mep\admin\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\wamp64\www\mep\admin\app\Controllers\Home.php(52): view('home')
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->validation()
+#4 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#8 {main}
+CRITICAL - 2021-05-18 16:42:07 --> Arquivo inválido: home.php
+#0 C:\wamp64\www\mep\admin\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\wamp64\www\mep\admin\system\Common.php(1217): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\wamp64\www\mep\admin\app\Controllers\Home.php(52): view('home')
+#3 C:\wamp64\www\mep\admin\system\CodeIgniter.php(936): App\Controllers\Home->validation()
+#4 C:\wamp64\www\mep\admin\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\mep\admin\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\mep\admin\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\mep\admin\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\m...')
+#8 {main}
